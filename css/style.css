@@ -14,7 +14,7 @@
 
 .logo img{
     width: 33%;
-    border: solid black;
+    border: solid red;
     border-radius: 50px;
 }
 
@@ -22,7 +22,12 @@
 
 .navbar{
     display: flex;
-    
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+
 }
 
 .nav-list{
@@ -73,10 +78,61 @@
     background-blend-mode: darken;
 }
 
+.firstSection{
+    height: 100vh;
+}
+
 .box-main{
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 55%;
+    margin: auto;
+    height: 80%;
 }
+
+
+.firstHalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.secondHalf{
+    width: 30%;
+    
+}
+
+.secondHalf img{
+    width: 70%;
+    border: 4px solid red;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+}
+
+
+
+
+.text-big{
+    font-size: 35px;
+
+}
+
+.text-small{
+    font-size: 18px;
+
+}
+
+
+
+
+
+
+
+
+
