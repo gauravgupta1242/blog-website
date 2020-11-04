@@ -137,19 +137,25 @@
     background: none;
     color: white;
     cursor: pointer;
-
+    font-family: 'Ubantu' , sans-serif;
+    font-size: 20px;
 }
 
 
 .btn-sm{
     padding: 6px 10px;
     vertical-align: middle;
+    font-size: 16px;
+}
+
+.btn-dark{
+    color: black;
+    border: 2px solid grey;
 }
 
 
-
 .section{
-    height: 500px;
+    height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -163,6 +169,10 @@
 }
 .paras{
     padding: 0px ;
+}
+
+.sectionTag{
+    padding: 16px 0;
 }
 
 .sectionSubTag{
@@ -179,9 +189,34 @@
     margin-right: 19px;
 }
 
+.contact{
+    background-color: #f6f5f4;
+    height: 833px;
+}
 
+.text-center{
+   
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Ubantu' , sans-serif;
+    font-size: 35px;
+}
 
+.form{
+    max-width: 1200px;
+    margin: 25px auto;
+}
 
+.form-input{
+    width: 100%;
+    font-size: 19px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    margin: 14px 0;
+    padding: 5px 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
 
 
 
