@@ -5,6 +5,9 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
 .logo{
     width: 20%;
@@ -15,9 +18,10 @@
 }
 
 .logo img{
-    width: 33%;
+    width: 26%;
     border: 3px solid red;
     border-radius: 50px;
+    margin: 5px;
 }
 
 
@@ -29,7 +33,7 @@
     position: sticky;
     top: 0;
     cursor: pointer;
-
+    
 }
 
 .nav-list{
@@ -158,13 +162,13 @@
 
 
 .section{
-    height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
     max-width: 80%;
     margin: auto;
     font-family: 'Ubantu' , sans-serif;
+    padding: 10px;
 }
 
 .section-Left{
@@ -206,7 +210,7 @@
 }
 
 .form{
-    max-width: 1200px;
+    max-width: 62%;
     margin: 25px auto;
 }
 
@@ -247,31 +251,5 @@
     background-color: white;
     height: 4px;
     margin: 5px 3px;
-}
-
-
-@media only screen and (max-width: 1140px){
-    .nav-list{
-        flex-direction: column;
-    }
-    .navbar{
-        flex-direction: column;
-    }
-    .rightNav{
-        text-align: center;
-    }
-
-    #search{
-        width: 100%;
-    }
-    .burger{
-        display: block;
-    }
-    .h-nav-resp{
-        height: 72px;
-    }  
-    .v-class-resp{
-        opacity: 0;
-    }
 }
 
